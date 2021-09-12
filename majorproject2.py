@@ -23,11 +23,11 @@ def light0(bot,update):
 def fan1(bot,update):
   chat_id = bot.message.chat_id
   aio.send_data(f.key,1)
-  bot.message.reply_text('TURNING ON LIGHT')
+  bot.message.reply_text('TURNING ON FAN')
 def fan0(bot,update):
   chat_id = bot.message.chat_id
   aio.send_data(f.key,0)
-  bot.message.reply_text('TURNING OFF LIGHT')      
+  bot.message.reply_text('TURNING OFF FAN')      
 def main(bot,update):
   a = bot.message.text
   if (a =="/help"):
