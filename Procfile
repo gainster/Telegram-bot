@@ -1,1 +1,1 @@
-worker: python major project 2.py
+worker: python majorproject2.py
